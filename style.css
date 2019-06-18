@@ -51,8 +51,8 @@
   text-align: center;
 }
 
-.account input,button{
-  border: none;
+.account input, .account button{
+  border: 1px solid rgb(203, 203, 203);
   padding: 10px 20px;
 }
 
@@ -68,6 +68,7 @@ small{
 }
 
 /* BOTTONI WELCOME */
+
 .buttongreen{
   background-color: #37ce88;
   color: white;
@@ -106,7 +107,7 @@ small{
 
 }
 
-.deploy h1,p{
+.deploy h1, .deploy p{
   color: rgb(18, 30, 110);
   padding-bottom: 20px;
 }
@@ -128,3 +129,69 @@ small{
 
 
 /* FINE DEPLOY */
+
+
+/* INIZIO DESIGNED */
+
+.designed{
+  background-color: rgb(244, 244, 244);
+}
+
+.designed h1{
+  font-weight: bold;
+}
+.designed h1, .designed p{
+  color: rgb(18, 30, 110);
+}
+.designed img{
+  width: 100%;
+  height: auto;
+}
+
+.designed p{
+  padding: 20px 0px;
+}
+
+/* FINE DESIGNED */
+
+/* INIZIO BUILT */
+
+.built {
+  padding: 40px 0px;
+}
+
+.built h1{
+  padding: 40px 0px;
+  font-weight: bold;
+}
+
+.built p{
+  padding: 20px 0px;
+}
+
+.built a{
+  font-size: 20px;
+  color: rgb(36, 152, 218);
+}
+
+.built h1, .built h3, .built p{
+  color: rgb(18, 30, 110);
+}
+
+/* FINE BUILT */
+
+/* TABLE  */
+
+.table{
+  background-image: url('world.png');
+  background-size: cover;
+}
+
+.table h1{
+  color: white;
+  padding: 40px 0px;
+}
+
+.table a{
+  color: rgb(28, 166, 116);
+}
