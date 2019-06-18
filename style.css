@@ -98,3 +98,33 @@ small{
 }
 
 /* FINE ICON */
+
+/* INIZIO DEPLOY */
+
+.deploy{
+  padding: 40px 0px;
+
+}
+
+.deploy h1,p{
+  color: rgb(18, 30, 110);
+  padding-bottom: 20px;
+}
+
+.deploy h1{
+  font-weight: bold;
+}
+
+.deploy li{
+  list-style-type: none;
+  font-size: 15px;
+  padding: 10px 0px;
+}
+
+.deploy a{
+  color: rgb(18, 30, 110);
+}
+
+
+
+/* FINE DEPLOY */
