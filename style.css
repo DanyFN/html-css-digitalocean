@@ -37,7 +37,7 @@
   border-radius: 5px;
   background-color: white;
   padding: 20px 0px;
-  
+
 }
 
 .account li{
@@ -55,11 +55,17 @@
 .account input, .account button{
   border: 1px solid rgb(203, 203, 203);
   padding: 10px;
+
+}
+
+.account input{
+  color: black;
 }
 
 .account button{
   border: 1px solid #e8e8e8;
   border-radius: 8px;
+
 }
 
 small{
@@ -136,22 +142,33 @@ small{
 
 .designed{
   background-color: rgb(244, 244, 244);
+  width: 100%;
+  text-align: center;
+  text
+}
+.immagine_sfondo{
+  width: 40%;
+  margin: auto;
+  height: 40%;
+  padding-bottom: 40px;
+}
+
+.immagine_sfondo img{
+  height: 100%;
+  width: 100%;
 }
 
 .designed h1{
   font-weight: bold;
+  padding-top: 40px;
 }
 .designed h1, .designed p{
   color: rgb(18, 30, 110);
 }
-.designed img{
-  width: 100%;
-  height: auto;
-}
 
 .designed p{
   padding: 20px 0px;
-}
+} */
 
 /* FINE DESIGNED */
 
@@ -188,9 +205,13 @@ small{
   background-size: cover;
   padding-bottom: 60px;
   margin-bottom: 0;
+  color: rgb(157, 157, 157);
 
 }
 
+td:first-child{
+  color: white;
+}
 .table{
   padding-bottom: 50px;
 }
@@ -209,8 +230,16 @@ small{
 /* LOVE */
 
 .love{
-  background-color: red;
+  margin-top: 0;
+  text-align: center;
 }
+
+.love h1{
+  padding: 40px 0px;
+}
+/* .love{
+  background-color: red;
+} */
 
 /* FINE LOVE */
 
@@ -232,3 +261,7 @@ small{
   border-radius: 8px;
   font-weight: bold;
 }
+
+/* FINE STARTED */
+
+/* INIZIO FOOTER */
