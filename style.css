@@ -37,6 +37,7 @@
   border-radius: 5px;
   background-color: white;
   padding: 20px 0px;
+  
 }
 
 .account li{
@@ -53,7 +54,7 @@
 
 .account input, .account button{
   border: 1px solid rgb(203, 203, 203);
-  padding: 10px 20px;
+  padding: 10px;
 }
 
 .account button{
@@ -182,16 +183,52 @@ small{
 
 /* TABLE  */
 
-.table{
+.speed{
   background-image: url('world.png');
   background-size: cover;
+  padding-bottom: 60px;
+  margin-bottom: 0;
+
 }
 
-.table h1{
+.table{
+  padding-bottom: 50px;
+}
+.speed h1{
   color: white;
   padding: 40px 0px;
 }
 
 .table a{
   color: rgb(28, 166, 116);
+}
+
+/* FINE TABLE */
+
+
+/* LOVE */
+
+.love{
+  background-color: red;
+}
+
+/* FINE LOVE */
+
+/* INIZIO STARTED */
+
+.started{
+  background-image: url('sfondo.jpg');
+  background-size: cover;
+  color: white;
+  padding: 40px 0px;
+}
+
+.started h1{
+  padding-bottom: 20px;
+}
+.create{
+  color: rgb(18, 30, 110);
+  padding: 10px 40px;
+  border-radius: 8px;
+  font-weight: bold;
 }
