@@ -10,6 +10,9 @@
   fill: rgb(36, 71, 218);
   transform: translateY(25%);  /* <-----tentativi?*/
 }
+/* .navbar-default .navbar-brand{
+  color: red;
+} */
 /* FINE NAVBAR */
 
 /* INIZIO WELCOME */
@@ -54,18 +57,19 @@
 
 .account input, .account button{
   border: 1px solid rgb(203, 203, 203);
-  padding: 10px;
+  padding: 10px 25px;
 
 }
 
 .account input{
   color: black;
+
 }
 
 .account button{
   border: 1px solid #e8e8e8;
   border-radius: 8px;
-
+  /* padding-left: 30px; */
 }
 
 small{
@@ -82,9 +86,13 @@ small{
 }
 
 .buttongoogle{
-  background-color: white;
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/600px-Google_%22G%22_Logo.svg.png');
+  background-position: 6px;
+  background-size: 15px 15px;
+  background-repeat: no-repeat;
   color: grey;
   font-weight: bold;
+  background-color: white;
 }
 
 /* FINE WELCOME */
@@ -190,6 +198,8 @@ small{
 .built a{
   font-size: 20px;
   color: rgb(36, 152, 218);
+  display: inline-block;
+  padding: 5px 0px 40px 0px;
 }
 
 .built h1, .built h3, .built p{
@@ -236,10 +246,9 @@ td:first-child{
 
 .love h1{
   padding: 40px 0px;
+  color: rgb(18, 30, 110);
+  font-weight: bold;
 }
-/* .love{
-  background-color: red;
-} */
 
 /* FINE LOVE */
 
@@ -256,12 +265,37 @@ td:first-child{
   padding-bottom: 20px;
 }
 .create{
-  color: rgb(18, 30, 110);
+  color: rgb(36, 152, 218);
+  background-color: white;
   padding: 10px 40px;
-  border-radius: 8px;
+  border-radius: 5px;
   font-weight: bold;
 }
 
 /* FINE STARTED */
 
 /* INIZIO FOOTER */
+
+footer{
+  background-color: rgb(6, 17, 96);
+  color: rgb(157, 157, 157);
+  padding: 50px 0px;
+}
+
+footer small{
+  color: rgb(157, 157, 157);
+  padding: 20px 0px;
+}
+
+footer ul li{
+  font-size: 15px;
+}
+footer ul li:first-child{
+  font-weight: bold;
+  color: white;
+
+}
+
+.colorgrey{
+  color: rgb(157, 157, 157);
+}
